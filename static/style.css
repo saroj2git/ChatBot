@@ -1,9 +1,9 @@
 body,html{
 	height: 100%;
 	margin: 0;
-	background: rgb(44, 47, 59);
-   background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
-	background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+	background: #999999;
+   background: -webkit-linear-gradient(to right, #848484, #7b7a7a, #3d3d3d);
+	background: linear-gradient(to right, #848484, #7b7a7a, #3d3d3d);
 }
 
 .chat{
@@ -11,7 +11,8 @@ body,html{
 	margin-bottom: auto;
 }
 .card{
-	height: 500px;
+	height: 650px;
+	width: 750px;
 	border-radius: 15px !important;
 	background-color: rgba(0,0,0,0.4) !important;
 }
@@ -129,7 +130,7 @@ border-radius: 0 0 15px 15px !important;
 }
 .user_info span{
 	font-size: 20px;
-	color: white;
+	color: #ffe600;
 }
 .user_info p{
 	font-size: 10px;
@@ -150,7 +151,7 @@ border-radius: 0 0 15px 15px !important;
 	margin-bottom: auto;
 	margin-left: 10px;
 	border-radius: 25px;
-	background-color: rgb(82, 172, 255);
+	background-color: #FFE600;
 	padding: 10px;
 	position: relative;
 }
@@ -159,7 +160,7 @@ border-radius: 0 0 15px 15px !important;
 	margin-bottom: auto;
 	margin-right: 10px;
 	border-radius: 25px;
-	background-color: #58cc71;
+	background-color: #CCCCCC;
 	padding: 10px;
 	position: relative;
 }
